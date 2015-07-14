@@ -1,0 +1,48 @@
+{
+  "name": "arcserver-pg-monitor",
+  "version": "0.0.1",
+  "description": "Scrape, save, and monitor ArcGIS Server web services",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --timeout 60000",
+    "up": "mgrt up",
+    "down": "mgrt down",
+    "refresh": "mgrt refresh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apburnes/arcserver-pg-monitor.git"
+  },
+  "keywords": [
+    "ArcGIS",
+    "ArcServer",
+    "scrape",
+    "REST",
+    "services",
+    "postgresql",
+    "monitor"
+  ],
+  "author": "apburnes <bizzurnzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apburnes/arcserver-pg-monitor/issues"
+  },
+  "homepage": "https://github.com/apburnes/arcserver-pg-monitor#readme",
+  "dependencies": {
+    "arcserver-traversaur": "0.0.2",
+    "bluebird": "^2.9.33",
+    "lodash": "^3.10.0",
+    "mgrt": "^0.2.8",
+    "pg": "^4.4.0",
+    "pg-query": "^0.11.0",
+    "request": "^2.58.0",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}

@@ -1,0 +1,5 @@
+INSERT INTO
+  fetches
+VALUES
+  (DEFAULT)
+RETURNING id;
